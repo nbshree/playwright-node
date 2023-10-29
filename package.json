@@ -1,0 +1,17 @@
+{
+  "name": "playwright-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testCase": "npx playwright test --project=chromium",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "patch-package": "^6.4.7",
+    "@playwright/test": "1.26.0"
+  }
+}
